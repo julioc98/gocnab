@@ -142,6 +142,10 @@ func Marshal500(vs ...interface{}) ([]byte, error) {
 	return marshal(500, vs...)
 }
 
+func Marshal750(vs ...interface{}) ([]byte, error) {
+	return marshal(750, vs...)
+}
+
 func marshal(lineSize int, vs ...interface{}) ([]byte, error) {
 	options := MarshalOptions{
 		addFinalControlCharacter: true,

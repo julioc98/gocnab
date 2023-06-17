@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rafaeljusto/gocnab"
+	"github.com/julioc98/gocnab"
 )
 
 func TestMarshal150(t *testing.T) {

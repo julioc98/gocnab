@@ -1,3 +1,3 @@
-module github.com/rafaeljusto/gocnab
+module github.com/julioc98/gocnab
 
-go 1.16
+go 1.20
